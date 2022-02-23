@@ -33,5 +33,4 @@ public class MainActivity extends AppCompatActivity {
         customTabsIntent.launchUrl(this, Uri.parse(url));
     }
 
-
 }
