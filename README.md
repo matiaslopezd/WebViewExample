@@ -12,6 +12,12 @@ CustomTabsIntent customTabsIntent = builder.build();
 customTabsIntent.launchUrl(this, Uri.parse("https://website.com"));
 ```
 
+The example website is this codesandbox: https://codesandbox.io/s/customtabs-xfkumz
+
+## Hints
+
+To close programatically the `CustomTabs` we recommend you to execute on the website `window.close()`, that is the best way to do it.
+
 # Documentation
 
 Please follow this link to more information: https://developer.android.com/reference/androidx/browser/customtabs/package-summary
